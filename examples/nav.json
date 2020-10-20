@@ -1,0 +1,34 @@
+{
+  "zh-CN": [{
+    "title": "quickstart 准备开始",
+    "path": "/index"
+  }, {
+    "name": "basic 基础组件",
+    "list": []
+  }, {
+    "name": "form 表单",
+    "list": [{
+      "title": "Row",
+      "path": "/row"
+    }]
+  }, {
+    "name": "notice 操作反馈",
+    "list": []
+  }],
+  "en-US": [{
+    "title": "quickstart",
+    "path": "/index"
+  }, {
+    "name": "basic",
+    "list": [{
+      "title": "Row",
+      "path": "/row"
+    }]
+  }, {
+    "name": "form",
+    "list": []
+  }, {
+    "name": "notice",
+    "list": []
+  }]
+}
