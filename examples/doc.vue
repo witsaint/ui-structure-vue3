@@ -61,8 +61,9 @@ main {
     line-height: 47px;
     font-size: 16px;
     text-indent: 20px;
-    background-color: #600;
-    color: white;
+    background-color: #fff;
+    color: #888;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
     .icon-logo {
       margin-right: 10px;
       font-size: 32px;
@@ -127,8 +128,9 @@ main {
     grid-area: footer;
     line-height: 50px;
     text-align: center;
-    background-color: #500;
-    color: rgba(255, 255, 255, .7);
+    background-color: #fff;
+    color: #888;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
   }
 }
 

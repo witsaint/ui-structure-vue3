@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build:vite": "vite build",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.docs.js"
   },
   "dependencies": {
     "axios": "^0.20.0",
@@ -15,7 +16,9 @@
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-rc.1",
     "autoprefixer": "^10.0.1",
+    "cross-env": "^7.0.2",
     "cssnano": "^4.1.10",
+    "glob": "^7.1.6",
     "less": "^3.12.2",
     "less-loader": "^5.0.0",
     "lint-staged": "^9.5.0",
@@ -25,6 +28,8 @@
     "postcss-url": "^8.0.0",
     "precss": "^4.0.0",
     "vite": "^1.0.0-rc.1",
-    "vite-plugin-vuedoc": "0.0.7"
+    "vite-plugin-vuedoc": "0.0.7",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0"
   }
 }
