@@ -10,6 +10,9 @@
     "list": [{
       "title": "Row",
       "path": "/row"
+    }, {
+      "title": "Input",
+      "path": "/input"
     }]
   }, {
     "name": "notice 操作反馈",

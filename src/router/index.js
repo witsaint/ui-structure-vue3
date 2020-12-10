@@ -1,13 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Main from '../views/main.vue';
-import New from './modules/new';
+import form from './modules/form';
 
 export const routes = [
   {
-    path: '/',
+    path: '',
     component: Main,
     meta: { noCache: true, title: '首页', position: 0 },
-    children: [].concat(New),
+    children: [].concat(form),
   },
 ];
 

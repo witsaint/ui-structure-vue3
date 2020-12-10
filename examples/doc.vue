@@ -18,7 +18,13 @@
         </span>
       </nav>
     </aside>
-    <router-view class="content"></router-view>
+    <section class="article">
+      <router-view class="content"></router-view>
+    </section>
+    <section class="examples">
+      <iframe :src="demoUrl" frameborder="0"></iframe>
+    </section>
+
     <footer>Copyright &copy; 2020 MTL FE</footer>
   </main>
 </template>
@@ -30,15 +36,27 @@ export default {
   data() {
     return {
       nav,
+      demoBaseUrl: '//localhost:3004',
+      demoUrl: '',
     };
+  },
+  mounted() {
+    this.setIframe(location.pathname);
+    this.$router.afterEach((to) => {
+      const { fullPath } = to;
+      this.setIframe(fullPath);
+    })
+  },
+  methods: {
+    setIframe(fullPath) {
+      const path = /^\/\S+(\/\S+)/.exec(fullPath);
+      this.demoUrl = `${this.demoBaseUrl}${path[1]}`;
+    },
   },
   computed: {
     lang() {
       const lang = this.$route.path.match(/\/([^/]+)/);
       return lang ? lang[1] : 'zh-CN';
-    },
-    demo() {
-      return `/example/#${this.$route.path}`;
     },
   },
 };
@@ -55,7 +73,7 @@ main {
   grid-template-columns: 270px auto;
   grid-column-gap: 20px;
   overflow-x: hidden;
-  grid-template-areas: 'header header' 'aside article' 'footer footer';
+  grid-template-areas: 'header header header' 'aside article examples' 'footer footer footer';
   header {
     grid-area: header;
     line-height: 47px;
@@ -109,6 +127,9 @@ main {
       }
     }
   }
+.article{
+  grid-area: article;
+}
   .examples {
     grid-area: examples;
     iframe {

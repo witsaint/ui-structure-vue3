@@ -1,10 +1,10 @@
 <template>
-    <div>vite fast</div>
+    <div>vite Row</div>
 </template>
 
 <script>
 export default {
-  name: "New",
+  name: "row",
   data() {
     return {};
   },

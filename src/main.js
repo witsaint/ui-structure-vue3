@@ -11,9 +11,15 @@ import { createUI } from '../UI';
 // import '@/assets/style/index.less';
 import './index.css';
 
-const exRouter = createRouter({
-  history: createWebHistory(),
+const docRouter = createRouter({
+  history: createWebHistory(''),
   routes: route(true),
 });
-createApp(App).use(createUI(123)).use(store).use(exRouter)
-  .mount('#app');
+if (import.meta.env.MODE === 'demos') {
+  createApp(AppDemo).use(createUI(123)).use(store).use(router)
+    .mount('#app');
+} else {
+  createApp(App).use(createUI(123)).use(store).use(docRouter)
+    .mount('#app');
+}
+
