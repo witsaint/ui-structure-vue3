@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f61f7f5-88c9-4c88-9544-2a28f52d3c85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/UI/components/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/components/row/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/UI/components/row/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/UI/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/form/Row.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/form/Row.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.docs.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.docs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md.js" beforeDir="false" afterPath="$PROJECT_DIR$/md.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/gaodev/standard_shop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -124,7 +115,7 @@
       <workItem from="1603184594418" duration="2253000" />
       <workItem from="1603434292601" duration="20000" />
       <workItem from="1607503228476" duration="2590000" />
-      <workItem from="1607508787744" duration="37432000" />
+      <workItem from="1607508787744" duration="38508000" />
     </task>
     <task id="LOCAL-00001" summary="feature:多组件编写框架">
       <created>1607585427137</created>

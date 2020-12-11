@@ -14,7 +14,7 @@ const mdToJs = str => {
 
 module.exports = () => {
   return {
-    configureServer: [ // 用于开发
+    configureServer: [
       async ({ app }) => {
         app.use(async (ctx, next) => {
           if (ctx.path.endsWith('.md')) {
