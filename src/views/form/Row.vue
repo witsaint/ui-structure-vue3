@@ -1,5 +1,8 @@
 <template>
-    <div>vite Row</div>
+  <div>
+    <p>vite Row</p>
+      <mtl-row title="213">hello word !!!</mtl-row>
+  </div>
 </template>
 
 <script>

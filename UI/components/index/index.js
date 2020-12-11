@@ -1,4 +1,4 @@
-import Row from './row/index.vue';
+import Row from '../row/index.vue';
 
 export default {
   'mtl-row': Row,

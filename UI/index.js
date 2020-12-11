@@ -1,5 +1,5 @@
 import request from './utils/net';
-import * as mtlUI from './components';
+import * as mtlUI from './components/index';
 
 export function createUI(options) {
   return {
