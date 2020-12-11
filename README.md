@@ -1,4 +1,4 @@
-# FDK UI Components
+# UI Components
 UI Components for everyone
 
 ## Introduction
