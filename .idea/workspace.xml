@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f61f7f5-88c9-4c88-9544-2a28f52d3c85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md.js" beforeDir="false" afterPath="$PROJECT_DIR$/md.js" afterDir="false" />
+    <list default="true" id="8f61f7f5-88c9-4c88-9544-2a28f52d3c85" name="Default Changelist" comment="feature: 介绍标题调整">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vite-admin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,14 +46,14 @@
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workplace\vite\vite-admin\UI\components\index" />
-      <recent name="D:\workplace\vite\vite-admin\src\views\form" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workplace\vite\vite-admin" />
       <recent name="D:\workplace\vite\vite-admin\examples\docs\zh-CN" />
       <recent name="D:\workplace\vite\vite-admin\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workplace\vite\vite-admin\UI\components\index" />
+      <recent name="D:\workplace\vite\vite-admin\src\views\form" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -62,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.test">
     <configuration name="build" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -93,10 +99,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="npm.build" />
       <item itemvalue="npm.dev:demo" />
       <item itemvalue="npm.dev" />
+      <item itemvalue="npm.test" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -115,7 +132,9 @@
       <workItem from="1603184594418" duration="2253000" />
       <workItem from="1603434292601" duration="20000" />
       <workItem from="1607503228476" duration="2590000" />
-      <workItem from="1607508787744" duration="38508000" />
+      <workItem from="1607508787744" duration="39073000" />
+      <workItem from="1608109866526" duration="647000" />
+      <workItem from="1608200136298" duration="9972000" />
     </task>
     <task id="LOCAL-00001" summary="feature:多组件编写框架">
       <created>1607585427137</created>
@@ -124,7 +143,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607585427137</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feature: 基本介绍">
+      <created>1607688989307</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607688989307</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feature: 介绍标题调整">
+      <created>1607689192509</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607689192509</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feature: 配置jest vue-jest 和 测试文件归属">
+      <created>1608277442552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608277442552</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +185,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feature:多组件编写框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature:多组件编写框架" />
+    <MESSAGE value="feature: 基本介绍" />
+    <MESSAGE value="feature: 介绍标题调整" />
+    <MESSAGE value="feature: 配置jest vue-jest 和 测试文件归属" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: 配置jest vue-jest 和 测试文件归属" />
   </component>
 </project>

@@ -19,7 +19,7 @@ UI Components for everyone
 │   ├── components
 │   ├── index.js
 ├── static (仅存放不需要处理的资源)
-├── test (暂无)
+├── test （存放单元测试的文件）
 │   └── unit
 ├── md.js (解析md)
 └── package.lock
@@ -45,11 +45,11 @@ yarn dev
 
 ## TODO
 
+- [√] 单元测试
 - [ ] 问题修复
 - [ ] 完善文档
 - [ ] 高阶组件
 - [ ] 业务组件
 - [ ] 功能扩展
-- [ ] 测试用例
 - [ ] 自定义主题
 
